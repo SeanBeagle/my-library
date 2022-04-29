@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Examples of testing existance of files and other conditions
+
 
 file="${1}"
 
@@ -17,6 +20,6 @@ file="${1}"
 [[ -r "${file}" ]] && echo "${file} exists and is readable"
 [[ -S "${file}" ]] && echo "${file} exists and is a socket"
 [[ -s "${file}" ]] && echo "${file} exists and has nonzero size"
-[[ -u "${file}" ]] && echo "${file} exists, and set-user-id (suid) flag is set"
+[[ -u "${file}" ]] && echo "${file} exists and set-user-id (suid) flag is set"
 [[ -w "${file}" ]] && echo "${file} exists and is writable"
 [[ -x "${file}" ]] && echo "${file} exists and is executable"
