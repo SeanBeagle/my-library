@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Library for logging to the STDOUT and STDERR
+# Library for logging to STDOUT and STDERR
 
 
 #######################################
