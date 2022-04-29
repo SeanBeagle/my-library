@@ -1,3 +1,5 @@
+#!/bin/bash
+
 file="${1}"
 
 [[ -b "${file}" ]] && echo "${file} exists and is a special block file"
