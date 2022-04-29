@@ -1,3 +1,5 @@
+file="${1}"
+
 [[ -b "${file}" ]] && echo "${file} exists and is a special block file"
 [[ -c "${file}" ]] && echo "${file} exists and is a special character file"
 [[ -d "${file}" ]] && echo "${file} exists and is a directory"
