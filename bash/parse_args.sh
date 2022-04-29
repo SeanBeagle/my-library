@@ -1,3 +1,8 @@
+#!/bin/bash
+#
+# Example argument parser
+
+
 while [[ "$#" -gt 0 ]]; do
 	case "${1}" in
 		-d|--do-something) echo "Look what I can do!" ; ;;
